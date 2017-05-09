@@ -9,8 +9,4 @@
 
 对于分层随机样本，总体总量的简单估计为
 
-$$
-\hat Y = N\bar{y_{st}} = \sum\limits_{h=1}^LN_h\bar y_h
-$$
-
-![](https://latex.codecogs.com/svg.latex?\hat Y = N\bar{y_{st}} = \sum\limits_{h=1}^LN_h\bar y_h)
+![](https://latex.codecogs.com/gif.latex?%5Chat%20Y%20%3D%20N%5Cbar%7By_%7Bst%7D%7D%20%3D%20%5Csum%5Climits_%7Bh%3D1%7D%5ELN_h%5Cbar%20y_h)
