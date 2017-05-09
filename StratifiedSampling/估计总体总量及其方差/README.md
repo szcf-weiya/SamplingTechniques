@@ -13,22 +13,4 @@ $$
 \hat Y = N\bar{y_{st}} = \sum\limits_{h=1}^LN_h\bar y_h
 $$
 
-
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-	tex2jax: {
-		inlineMath: [['$','$'], ['\\(','\\)']],
-		processEscapes:true
-	},
-	TeX: {
-		entensions: ["color.js"]
-	}
-  });
-</script>
-<script type="text/javascript" async
-  src="https://szcf-weiya.github.io/ESL-CN/js/MathJax/MathJax.js?config=TeX-AMS_CHTML">
-</script>
-
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
-formula1: $$n==x$$
+![](https://latex.codecogs.com/svg.latex?\hat Y = N\bar{y_{st}} = \sum\limits_{h=1}^LN_h\bar y_h)
