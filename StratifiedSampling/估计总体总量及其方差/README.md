@@ -15,3 +15,17 @@ $$
 
 
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+	tex2jax: {
+		inlineMath: [['$','$'], ['\\(','\\)']],
+		processEscapes:true
+	},
+	TeX: {
+		entensions: ["color.js"]
+	}
+  });
+</script>
+<script type="text/javascript" async
+  src="https://szcf-weiya.github.io/ESL-CN/js/MathJax/MathJax.js?config=TeX-AMS_CHTML">
+</script>
