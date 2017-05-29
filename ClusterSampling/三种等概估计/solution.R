@@ -17,17 +17,21 @@ M.bar = mean(M)
 ## or ybar.bar.2 = sum(ybar*M)/(n*M.bar)
 Y.hat.2 = N/n*sum(ybar*M)
 ## or Y.hat.2 = M0*ybar.bar.2
-Y.hat.2
-Y.var.2 = N^2*(1-f)/n*sum((ybar*M-mean(ybar))^2)
+Y.var.2 = N^2*(1-f)/n*sum((ybar*M-mean(ybar*M))^2)/(n-1)
 Y.sd.2 = sqrt(Y.var.2)
-Y.sd.2
+print(paste0("Y.hat.2 = ", Y.hat.2, "; Y.sd.2 = ", Y.sd.2))
 ## 等概抽样，比率估计
-ybar.bar.3 = sum(ybar*M)/sum(M)*M0
-
-# 其他辅助变量的估计
-ybar.bar.4 = sum(ybar*M)/sum(x)*X
-
-
+ybar.bar.3 = sum(ybar*M)/sum(M)
+Y.hat.3 = M0*ybar.bar.3
+Y.var.3 = N^2*(1-f)/n*sum((ybar*M-ybar.bar.3*M)^2)/(n-1)
+Y.sd.3 = sqrt(Y.var.3)
+print(paste0("Y.hat.3 = ", Y.hat.3, "; Y.sd.3 = ", Y.sd.3))
+## 其他辅助变量的估计
+R = sum(ybar*M)/sum(x)
+Y.hat.4 = R*X
+Y.var.4 = N^2*(1-f)/n*sum((ybar*M-R*x)^2)/(n-1)
+Y.sd.4 = sqrt(Y.var.4)
+print(paste0("Y.hat.4 = ", Y.hat.4, "; Y.sd.4 = ", Y.sd.4))
 
 
 
