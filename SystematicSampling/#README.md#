@@ -64,4 +64,6 @@ $N\neq nk$，由于$k$个可能样本所包含的单元数不全相等，因此$
 ![](https://latex.codecogs.com/gif.latex?v_2%28%5Cbar%20y_%7Bsy%7D%29%3D%5Cfrac%7B1-f%7D%7Bn%7D%5Cfrac%7B1%7D%7B2%28n-1%29%7D%5Csum%5Climits_%7Bi%3D1%7D%5E%7Bn-1%7D%28y_%7Bi&plus;1%7D-y_i%29%5E2)
 
 3. n为偶数时，两两划分样本观测值
-![]()
+![](https://latex.codecogs.com/gif.latex?v_3%28%5Cbar%20y_%7Bsy%7D%29%3D%5Cfrac%7B1-f%7D%7Bn%7D%5Cfrac%7B2%7D%7Bn%7D%5Cfrac%7B1%7D%7B2%7D%5Csum%5Climits_%7Bi%3D1%7D%5E%7Bn/2%7D%28y_%7B2i%7D-y_%7B2i-1%7D%29%5E2)
+
+[Ex6.5](Ex6.5/README.md)
