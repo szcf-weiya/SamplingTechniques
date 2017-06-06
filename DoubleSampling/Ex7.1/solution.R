@@ -1,9 +1,12 @@
+## data
 nh.hat = c(540, 320, 100, 40)
 nh = c(80, 60, 40, 20)
 yh.bar = c(2, 7, 15, 40)
 ## w_h'
 wh.hat = nh.hat/sum(nh.hat)
 ystD.bar = sum(wh.hat*yh.bar)
+
+
 sh2 = c(1.01, 2.71, 15.38, 690.53)
 yhj.sum = c(400, 3100, 9600, 45120)
 
