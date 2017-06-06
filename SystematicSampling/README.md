@@ -55,3 +55,28 @@ $N\neq nk$，由于$k$个可能样本所包含的单元数不全相等，因此$
 
 ### 方差估计的形式
 
+通常没有无偏估计
+
+1. 系统样本作为简单随机样本对待
+![](https://latex.codecogs.com/gif.latex?v_1%28%5Cbar%20y_%7Bsy%7D%29%3D%5Cfrac%7B1-f%7D%7Bn%7Ds%5E2%3D%5Cfrac%7BN-n%7D%7BnN%7D%5Cfrac%7B1%7D%7Bn-1%7D%5Csum%5Climits_%7Bi%3D1%7D%5En%28y_i-%5Cbar%20y_%7Bsy%7D%29%5E2)
+
+2. 考虑从第二个样本估计值开始，每个与前一个一组
+![](https://latex.codecogs.com/gif.latex?v_2%28%5Cbar%20y_%7Bsy%7D%29%3D%5Cfrac%7B1-f%7D%7Bn%7D%5Cfrac%7B1%7D%7B2%28n-1%29%7D%5Csum%5Climits_%7Bi%3D1%7D%5E%7Bn-1%7D%28y_%7Bi&plus;1%7D-y_i%29%5E2)
+
+3. n为偶数时，两两划分样本观测值
+![](https://latex.codecogs.com/gif.latex?v_3%28%5Cbar%20y_%7Bsy%7D%29%3D%5Cfrac%7B1-f%7D%7Bn%7D%5Cfrac%7B2%7D%7Bn%7D%5Cfrac%7B1%7D%7B2%7D%5Csum%5Climits_%7Bi%3D1%7D%5E%7Bn/2%7D%28y_%7B2i%7D-y_%7B2i-1%7D%29%5E2)
+
+[Ex6.5](Ex6.5/README.md)
+
+### 线性趋势总体
+
+若总体单元按指标值从小到大顺序排列或按某个
+与其有线性相关的辅助变量的大小顺序排列,此
+时指标值与单元序号i也线性相关
+
+#### 中心位置样本法与首尾校正法
+1. 麦多的中心位置样本法
+2. 耶茨的首尾校正法
+3. 贝尔豪斯与拉奥的圆形等距抽样法
+
+[Ex6.6](Ex6.6/README.md)
